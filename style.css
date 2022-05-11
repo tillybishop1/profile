@@ -1,0 +1,101 @@
+body {
+  background-color:rgba(238, 243, 210, 0.7);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: large;
+  line-height: normal;
+}
+
+h1 {
+  color: #6A67CE;
+  font-size: 64px;
+  font-weight: 20px;
+  font-family: 'Secular One', sans-serif;
+  padding-bottom: 20px;
+}
+
+
+p {
+  color: #947EC3;
+  font-size: 40px;
+}
+
+a {
+  color: orange;
+  font-family: 'Oleo Script', cursive;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+h3 {
+  color: green;
+  font-family: 'Secular One', sans-serif;
+}
+
+
+a:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+.socials {
+  color: #947EC3;
+}
+
+.card {
+  background-color: rgb(237, 210, 243, 0.7);
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 50px 200px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#header-links {
+  height: 50px;
+}
+
+#tilly-logo {
+  height: 100px;
+  width: 500px;
+  border-radius: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FDD7AA;
+  padding: 0px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  height: 100px;
+  border-radius: 50px;
+}
+
+.logos {
+  list-style: none;
+  padding: 20px;
+}
+
+.logos li {
+  display: inline;
+}
+
+#discover {
+  font-size: 48px;
+  background-color: #6B72E1;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+
+#tilly-photo {
+  border-radius: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+#follow {
+  font-size: 52px;
+}
